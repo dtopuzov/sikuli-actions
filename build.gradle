@@ -23,6 +23,8 @@ test {
     testLogging {
         events 'PASSED', 'FAILED', 'SKIPPED'
         showStandardStreams = true
+        showStackTraces = true
+        exceptionFormat = 'full'
     }
 
     reports {
